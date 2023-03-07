@@ -1,0 +1,13 @@
+.App{
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to right, #ffafbd , #ffc3a0);
+overflow: auto;
+
+
+}
+h3{
+  text-align: center;
+  color: #355C7D;
+  
+}

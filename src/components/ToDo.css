@@ -1,0 +1,61 @@
+
+
+.todo-container{
+    width: 50%;
+    margin: 0.5rem auto ;
+    background: white;
+    font-size: 1rem;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 2s ease;
+    
+}
+.todo-container li {
+  
+    flex: 1;
+  
+  }
+
+ button {
+  padding: 0.8rem;
+  border: none;
+  background: white;
+  
+}
+
+.trash,
+.check {
+  background: #ff6f47;
+  color: white;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  
+}
+.check {
+  background: rgb(11, 212, 162);
+ 
+
+}
+.todo-item{
+  
+    padding: 0rem 0.5rem;
+    font-size: 20px;
+   
+  }
+  .trash:hover,
+.check:hover{
+  opacity: 0.8;
+  
+}
+ul{
+  list-style-type: none;
+ 
+}
+.completed{
+  text-decoration: line-through;
+  opacity: 0.5;
+  
+}
